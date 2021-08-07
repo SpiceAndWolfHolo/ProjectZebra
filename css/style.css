@@ -20,8 +20,19 @@
 
 .menu__list {
     width: 600px;
+    height: 86px;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
 
+}
+
+.menu {
+    height: 100%;
+    padding: 35px;
+}
+
+.menu__list li:hover { 
+    background-color: red;
 }
