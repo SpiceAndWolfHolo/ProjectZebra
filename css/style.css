@@ -11,4 +11,17 @@
     background-color: rgba(199, 177, 177, 0.95);
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.menu__list {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+
 }
