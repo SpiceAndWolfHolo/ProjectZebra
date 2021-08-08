@@ -1,12 +1,8 @@
 /* header logo menu */
 
 .wrapper { 
-    height: 992px;
     position: relative;
-    background-image: url('../img/zebrabg.png');
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 .header {
@@ -17,6 +13,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: absolute;
+    top: 0;
 }
 
 .logo {
@@ -60,7 +58,15 @@
     color: white;
 }
 
+.scroll {
+    height: 655px;
+    background-image: url('../img/zebrabg.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+/* sales block */
 .price {
     height: 100%;
     width: 120px;
@@ -82,10 +88,6 @@
 
 .price a {
     color: #626262;
-}
-
-.scroll {
-    height: 570px;
 }
 
 .sales {
@@ -128,4 +130,13 @@
 .footer {
     height: 105px;
     background-color: #1B2330;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
+
+.copyright {
+    font-size: 14px;
+    color: rgba(256, 256, 256, 0.5);
+}
+
