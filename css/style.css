@@ -3,7 +3,7 @@
 .wrapper { 
     height: 992px;
     position: relative;
-    background-image: url('../img/zebrabg.jpeg');
+    background-image: url('../img/zebrabg.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,7 @@
 }
 
 .logo {
-    margin-left: 50px;
+    margin-left: 110px;
     font-size: 38px;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
@@ -38,7 +38,6 @@
 }
 
 .menu__list {
-    width: 600px;
     height: 86px;
     align-items: center;
     display: flex;
@@ -106,4 +105,27 @@
 
 .sales__blocks img {
     padding: 30px;
+}
+
+/* categories block */
+
+.categories {
+    height: 600px;
+    background-image: url('../img/zebrabg2.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* levis block */
+
+.levis {
+    height: 820px;
+}
+
+/* footer block */
+
+.footer {
+    height: 105px;
+    background-color: #1B2330;
 }
