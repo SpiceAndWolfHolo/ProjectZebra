@@ -1,14 +1,19 @@
 /* header logo menu */
-.wrapper {
-    width: 100%;
-    height: 2000px;
-    background-color: royalblue;    
+
+.wrapper { 
+    height: 1000px;
+    position: relative;
+    background-image: url('../img/zebrabg.jpeg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
     height: 86px;
     width: 100%;
-    background-color: rgba(199, 177, 177, 0.95);
+    min-width: 900px;
+    background-color: rgba(256, 256, 256, 0.95);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -16,6 +21,20 @@
 
 .logo {
     margin-left: 50px;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.ze {
+    color: #626262;
+}
+
+.bra {
+    color: #06B5A9;
+}
+.menu a {
+    color: #626262;
 }
 
 .menu__list {
@@ -23,16 +42,40 @@
     height: 86px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
     margin-right: 100px;
-
+    justify-content: center;
 }
 
 .menu {
     height: 100%;
     padding: 35px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu__list li:hover { 
-    background-color: red;
+    background-color: #CF1A2B;
+}
+
+.price {
+    height: 100%;
+    width: 120px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shopicon {
+    margin-bottom: 6px;
+}
+
+.menuicon {
+    margin-top: 6px;
+}
+
+.price a {
+    color: #626262;
 }
