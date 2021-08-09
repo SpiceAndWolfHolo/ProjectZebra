@@ -30,8 +30,10 @@
 .bra {
     color: #06B5A9;
 }
-.menu a {
-    color: #626262;
+
+.nav {
+    height: 100%;
+
 }
 
 .menu__list {
@@ -42,6 +44,10 @@
     justify-content: center;
 }
 
+.menu__list li {
+    color: #626262;
+}
+
 .menu {
     height: 100%;
     padding: 35px;
@@ -49,13 +55,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.menu__list li:hover { 
+.menu__list a li:hover { 
     background-color: #CF1A2B;
-}
-
-.menu__list li a:hover {
     color: white;
 }
+
 
 .scroll {
     height: 655px;
