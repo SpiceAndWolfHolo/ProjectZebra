@@ -2,7 +2,6 @@
 
 .wrapper { 
     position: relative;
-
 }
 
 .header {
@@ -130,9 +129,19 @@
 .footer {
     height: 105px;
     background-color: #1B2330;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+}
+
+.footer__line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding: 24px 60px 0 15px;
+}
+
+.footer__icons {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .copyright {
