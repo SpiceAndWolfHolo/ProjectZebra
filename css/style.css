@@ -50,9 +50,18 @@
 
 .menu {
     height: 100%;
-    padding: 35px;
+    padding: 34px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+}
+
+.hovermenu {
+    width: 610px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    white-space: nowrap;
+    display: none;
 }
 
 .menu__list a li:hover { 
@@ -60,6 +69,9 @@
     color: white;
 }
 
+.menu__list a li:hover .hovermenu { 
+    display: block;
+}
 
 .scroll {
     height: 655px;
@@ -105,7 +117,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .sales__blocks img {
@@ -126,6 +137,46 @@
 
 .levis {
     height: 820px;
+    padding: 30px 70px;
+}
+
+.levis__block {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.levis__logo {
+    position: relative;
+    bottom: 47px;
+    left: 10%;
+    align-self: flex-start;
+}
+
+.clothes__text {
+    padding-top: 150px;
+}
+
+.mens__text__logo {
+    font-size: 50px;
+}
+
+.mens__text__text {
+    font-size: 14px;
+}
+
+.clothes__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px 50px 150px;
+}
+
+.clothes__list__subtitle {
+    padding: 10px 0 0 40px;
+}
+
+.clothes__list__item img {
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 /* footer block */
