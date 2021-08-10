@@ -69,7 +69,7 @@
     color: white;
 }
 
-.menu__list a li:hover .hovermenu { 
+.menu__list a:hover .hovermenu { 
     display: block;
 }
 
@@ -144,13 +144,13 @@
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
+    position: relative;
 }
 
 .levis__logo {
-    position: relative;
-    bottom: 47px;
-    left: 10%;
-    align-self: flex-start;
+    position: absolute;
+    top: -47px;
+    left: 120px;
 }
 
 .clothes__text {
