@@ -133,6 +133,93 @@
     background-size: cover;
 }
 
+.categories__container {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.categories__text {
+    font-size: 116px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.categories__list span {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #58DBD3;
+    display: inline-block;
+    position: absolute;
+}
+
+.circle__button__hollow1 {
+    opacity: 0.5;  
+    left: -105px;
+    bottom: 120px;
+}
+
+.circle__button1 {
+    opacity: 0.5;
+    padding: 65px 50px 50px 50px;
+    bottom: 162px;
+    left: 56px;
+}
+
+.circle__button2 {
+    opacity: 0.8;
+    left: 225px;
+    bottom: 100px;
+    padding: 48px 65px 53px 41px;
+}
+
+.circle__button3 {
+    opacity: 0.5;
+    padding: 43px 40px 35px 67px;
+    right: 50px;
+    left: 390px;
+    bottom: 155px;
+}
+
+.circle__button4 {
+    opacity: 0.8;
+    left: 560px;
+    bottom: 115px;
+    padding: 70px 50px 50px 55px;
+}
+
+.circle__button5 {
+    opacity: 0.5;
+    padding: 65px 50px 50px 50px;
+    right: 347px;
+    bottom: 84px;
+}
+
+.circle__button6 {
+    opacity: 0.8;
+    padding: 48px 65px 53px 41px;
+    right: 200px;
+    bottom: 145px;
+}
+
+.circle__button7 {
+    opacity: 0.5;
+    padding: 55px;
+    right: 50px;
+    bottom: 65px;
+}
+
+.circle__button__hollow2 {
+    opacity: 0.8;
+    right: -60px;
+    bottom: 185px;
+}
+
 /* levis block */
 
 .levis {
