@@ -102,6 +102,31 @@
     background-size: cover;
 }
 
+.scroll__conteiner {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scroll__conteiner img {
+    margin: 40px;
+}
+
+.scroll__conteiner span {
+    color: #fff;
+    font-size: 22px;
+    font-family: monospace;
+    letter-spacing: 20px;
+    padding-left: 50px;
+}
+
+.scroll__conteiner h1 {
+    color: #fff;
+    font-size: 116px;
+    font-family: fantasy;
+}
+
 /* sales block */
 .price {
     height: 100%;
