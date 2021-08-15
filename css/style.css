@@ -2,6 +2,7 @@
 
 .wrapper { 
     position: relative;
+    overflow: hidden;
 }
 
 .header {
@@ -56,29 +57,75 @@
 }
 
 .hovermenu {
-    width: 610px;
     height: 300px;
-    background-color: red;
+    background-color: #CF1A2B;
     position: absolute;
-    white-space: nowrap;
     display: none;
 }
 
 .menu__list a li:hover { 
     background-color: #CF1A2B;
     color: white;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.3);
 }
 
 .menu__list a:hover .hovermenu { 
     display: block;
 }
 
+.hovermenu__list__firstblock,
+.hovermenu__list__secondblock,
+.hovermenu__list__thirdblock {
+    height: 100%;
+    width: 204px;
+    display: inline-block;
+    border-right: 1px solid rgba(256, 256, 256, 0.3);
+}
+
+.hovermenu__logo {
+    height: 70px;
+    display: block;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.3);
+}
+
+.hovermenu__img {
+    height: 230px;
+    display: block;
+}
+
+
+/* scroll block */
 .scroll {
     height: 655px;
     background-image: url('../img/zebrabg.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.scroll__conteiner {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scroll__conteiner img {
+    margin: 40px;
+}
+
+.scroll__conteiner span {
+    color: #fff;
+    font-size: 22px;
+    font-family: monospace;
+    letter-spacing: 20px;
+    padding-left: 50px;
+}
+
+.scroll__conteiner h1 {
+    color: #fff;
+    font-size: 116px;
+    font-family: fantasy;
 }
 
 /* sales block */
@@ -133,6 +180,97 @@
     background-size: cover;
 }
 
+.categories__container {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.categories__text {
+    font-size: 116px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.categories__list span {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #58DBD3;
+    display: inline-block;
+    position: absolute;
+}
+
+.circle__button__hollow1 {
+    opacity: 0.5;  
+    left: -105px;
+    bottom: 120px;
+}
+
+.circle__button1 {
+    opacity: 0.5;
+    padding: 65px 50px 50px 50px;
+    bottom: 162px;
+    left: 56px;
+}
+
+.circle__button2 {
+    opacity: 0.8;
+    left: 225px;
+    bottom: 100px;
+    padding: 48px 65px 53px 41px;
+}
+
+.circle__button3 {
+    opacity: 0.5;
+    padding: 43px 40px 35px 67px;
+    right: 50px;
+    left: 390px;
+    bottom: 155px;
+}
+
+.circle__button4 {
+    opacity: 0.8;
+    left: 560px;
+    bottom: 115px;
+    padding: 70px 50px 50px 55px;
+}
+
+.circle__button5 {
+    opacity: 0.5;
+    padding: 65px 50px 50px 50px;
+    right: 347px;
+    bottom: 84px;
+}
+
+.circle__button6 {
+    opacity: 0.8;
+    padding: 48px 65px 53px 41px;
+    right: 200px;
+    bottom: 145px;
+}
+
+.circle__button7 {
+    opacity: 0.5;
+    padding: 55px;
+    right: 50px;
+    bottom: 65px;
+}
+
+.circle__button__hollow2 {
+    opacity: 0.8;
+    right: -60px;
+    bottom: 185px;
+}
+
+.categories__list span:hover {
+    opacity: 1;
+}
+
 /* levis block */
 
 .levis {
@@ -155,20 +293,57 @@
 
 .clothes__text {
     padding-top: 150px;
+    padding-left: 150px;
 }
 
 .mens__text__logo {
     font-size: 50px;
+    font-weight: 600;
 }
 
 .mens__text__text {
     font-size: 14px;
+    color: #1D1D1D;
+    margin-top: 15px;
+}
+
+.rate__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    margin-top: 30px
+}
+
+.rate {
+    font-size: 36px;
+}
+
+.rate span {
+    font-weight: 600;
+}
+
+.levis__button {
+    height: 50px;
+    width: 215px;
+    background-color: #CF1A2B;
+    box-shadow: 0px 0px 3px black;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.addtocart__text {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
 }
 
 .clothes__list {
     display: flex;
     justify-content: space-around;
-    margin: 50px 150px 50px 150px;
+    margin-top: 50px;
 }
 
 .clothes__list__subtitle {
